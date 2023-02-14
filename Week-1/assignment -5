@@ -1,0 +1,16 @@
+bank="EQUITY BANK"
+Branch="CBD"
+Date="8th feb 2023"
+f_name="loreen"
+s_name="Wairimu"
+acc no="112456RQY"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAA16859GYZ"
+acc bal="KSH 250000"
+print("=============================")
+print("|         bank              |")
+print("|         branch            |")
+print("|         date              |")
+print("|         f_name            |")
+print("|         s_name            |")
+print("|         acc no            |")
+print("|         acc bal           |")
+print("=============================")
