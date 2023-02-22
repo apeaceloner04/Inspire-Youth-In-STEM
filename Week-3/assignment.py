@@ -25,7 +25,7 @@ print(celebs)
 celebs.pop()
 print(celebs)
 
-celebs.pop()
+celebs.copy()
 print(celebs)
 
 print(len(celebs))
