@@ -5,7 +5,7 @@
 #5% if income is less 100k
 
 #print gross income and net income
-income = input ("Enter your net income")
+
 
 #Formulae gross_income = net income + taxes
 

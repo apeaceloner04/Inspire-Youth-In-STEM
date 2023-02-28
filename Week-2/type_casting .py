@@ -22,3 +22,7 @@ print (type(x)) #Size in bytes
 y= "Hello"
 
 print(type(y)) #Size in bytes
+print(len(y))
+
+maths_grade ='A'
+print()

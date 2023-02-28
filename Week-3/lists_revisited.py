@@ -14,3 +14,4 @@ print(new_friends)
 
 new_friends.pop()
 print(new_friends)
+

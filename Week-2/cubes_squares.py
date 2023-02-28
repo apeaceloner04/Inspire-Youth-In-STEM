@@ -1,4 +1,5 @@
 #program to print the squares and cubes of numbers
+    print("--------------------------------")
 for i in range (0,10):
     print("squares:",x**2)
 
