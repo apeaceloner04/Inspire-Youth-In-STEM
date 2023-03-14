@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY PROFILE ID</title>
+        <script type="text/javascript" src="form.js"></script>
+    </head>
+    <body>
+        <script>
+            function test() {
+                var w=document.getElementById("number").value;
+                if (w < 18)
+                {var msg="not old enough";}
+                 else
+                {var msg="old enough"};
+                document.getElementById("display").innerHTML=msg;
+            }
+        </script>
+        <h1>Form</h1>
+        <form>
+            <input type="text" placeholder="Name"><br>
+            <input type="text" placeholder="Gender"><br>
+            <input type="number"id="number" placeholder="Age"><br>
+            <button type="button" onclick="test()">Enter</button>
+            <h1 id="display"></h1>
+    </body>
+      </html>

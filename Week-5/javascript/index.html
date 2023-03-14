@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="styles.css">
+
+
+    </head>
+    <body>
+        <h1>LOG IN SYSTEM</h1>
+        <label for="">Name</label><br><br>
+        <input type="text"><br>
+        <label for=""> Age</label><br><br>
+        <input id="age" type="int"><br>
+        <button id="confirm_btn">CONFIRM</button>
+        <h2 id="get_in">You are allowed to enter</h2>
+        
+        <h1 id="number">0</h1>
+        <button id="increase_btn">increase</button>
+        <button id="decrease_btn">decrease</button>
+        <button id="reset_btn">reset</button>
+        
+        <script>
+            var number = 0
+            //increase
+
+            document.getElementById("increase_btn").onclick = function increase()
+        {number += 1;
+            console.log(number)
+            document.getElementById("number").innerHTML=number
+        }
+
+            //decrease
+            document.getElementById("decrease_btn").onclick = function increase()
+        {number -= 1;
+            console.log(number)
+            document.getElementById("number").innerHTML=number
+        }
+
+          //reset
+          document.getElementById("reset_btn").onclick = function increase()
+        {number = 0;
+            console.log(number)
+            document.getElementById("number").innerHTML=number
+        }
+
+
+        </script>
+        
+    </body>
+</html>
+        
+        
+      
+    
+        
+        <button>Click Me</button>      
+    </body>
+</html>

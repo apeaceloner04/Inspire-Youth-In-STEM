@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>spotify clone</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <h1>LOREEN'S CLASSICS</h1>
+    <body>
+      <div id="playlist">
+        <div class="artist">
+          <img src="cool/central c.jpeg" alt="Artist 1">
+          <h3>CENTRAL CEE</h3>
+          <audio src="cool/central_cee_commitment_issues_lyrics_mp3_36198.mp3"></audio>
+          <button class="play">Play</button>
+          <button class="stop">Stop</button>
+        </div>
+        <div class="artist">
+          <img src="cool/jmurph.jpeg" alt="Artist 2">
+          <h3>JESSIE MURPH</h3>
+          <audio src="cool/jessie_murph_pray_lyrics_mp3_36174.mp3"></audio>
+          <button class="play">Play</button>
+          <button class="stop">Stop</button>
+        </div>
+        <div class="artist">
+          <img src="cool/one direction.webp" alt="Artist 3">
+          <h3>ONE DIRECTION</h3>
+          <audio src="cool/one_direction_night_changes_lyrics_mp3_36250.mp3"></audio>
+          <button class="play">Play</button>
+          <button class="stop">Stop</button>
+        </div>
+        <div class="artist">
+          <img src="cool/cool.jpeg" alt="Artist 4">
+          <h3>DEAN LEWIS</h3>
+          <audio src="cool/dean_lewis_how_do_i_say_goodbye_lyrics_mp3_64062.mp3.crdownload"></audio>
+          <button class="play">Play</button>
+          <button class="stop">Stop</button>
+        </div>
+        
+      </div>
+    <script>
+      const artists = document.querySelectorAll('.artist');
+
+artists.forEach((artist) => {
+  const audio = artist.querySelector('audio');
+  const playButton = artist.querySelector('.play');
+  const stopButton = artist.querySelector('.stop');
+
+  playButton.addEventListener('click', () => {
+    audio.play();
+  });
+
+  stopButton.addEventListener('click', () => {
+    audio.pause();
+    audio.currentTime = 0;
+  });
+});
+    </script>  
+    </body>
+</html>    
