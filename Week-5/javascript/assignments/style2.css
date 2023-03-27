@@ -41,4 +41,15 @@
     background-attachment: fixed;
   }
 
-.header
+.header {
+  height:0px;
+  background-color: #ffffff;
+}
+
+.logo{
+  background-image: url(cool/spotify\ logo.png);
+  width:100px;
+  height:100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
